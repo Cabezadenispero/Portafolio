@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header a partir de acá */
+
+header {
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 5px 5px rgba(226, 220, 220, 0.75);
+    position: fixed;
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    
+}
+
+ul { 
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-left: 40%;
+}
+
+.btn-contact-nav {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn-contact-nav:hover {
+    background-color: cadetblue;
+}
+
+.font-hover:hover {
+    color: blueviolet
+}
+
+.link-none {
+    text-decoration: none;
+}
+.link-none:visited {color: black;  
+    text-decoration: none 
+}
+.link-none:hover {
+    color: blueviolet
+}
+
+/* Hasta acá el header 
+------------------------------------
+inicio del main */
+
+main {
+    width: 100%;
+    
+
+}
+
+.presentation {
+    height: 940px;
+    width: 100%;
+    padding: 10%;    
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* info texto presentation */
+
+
+.name-info  {
+    width: 50%;
+    height: 100%;
+    margin-top: 30%;
+}
+
+.presentation-saludo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.presentation-name {
+    font-size: 60px;
+    color: darkcyan;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-loquehago {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 30px;
+}
+
+.btn-loquehago:hover {
+    background-color: cadetblue;
+}
+
+
+.img-box-presentation {
+    width: 50%;
+}
+
+.lola-img-presentation {
+    width: 80%;
+}
+
+
+
