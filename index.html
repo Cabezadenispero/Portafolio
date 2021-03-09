@@ -4,39 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/style.css">
+    <script src="https://kit.fontawesome.com/4afec628c3.js" crossorigin="anonymous"></script>
     <title>María Dolores Garcia </title>
 </head>
 <body>
+    <!---Bara de navegación estatica-->
     <header>
         <nav>
-            <ul>
+            <ul class="nav-items-list">
                 <li class="font-hover">
                     <a class="link-none" href="#hola">HOLA</a></li>
-                <li class="font-hover">CONOCIMIENTOS</li>
+                <li class="font-hover">
+                    <a class="link-none" href="#icons-dev">CONOCIMIENTOS</a></li>
                 <li class="font-hover">PROYECTOS</li>
                 <li class="btn-contact-nav">CONTACTO</li>         
             </ul>
         </nav>
     </header>
+    <!--contenido 1/hola 2/conocmientos 3/proyectos 4/contacto-->
     <main>
-        <section class="presentation">
-            <a name="hola"></a> 
+        <!--hola-->
+        <a name="hola"></a> 
+        <section class="presentation">            
+            <article class="name-info">
             
-            <div class="name-info">
                 <h3 class="presentation-saludo">¡Hola! Soy</h3>
                 <h1 class="presentation-name">Dolores Garcia</h1>
-                <p>Front End Developer trainee, Guía Montessori, y fan de los gatos</p>
+                <p>Bosquejo de developer, Montessori, cats & crafty lover</p>
             
                 <div class="btn-loquehago">
                     <h4>LO QUE HAGO</h4>
                 </div>
-            </div>
+            </article>
     
-            <div class="img-box-presentation">
+            <article class="img-box-presentation">
                 <img class="lola-img-presentation" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Messaging_fun_re_vic9.svg" alt="presentacion">
-            </div>
+                CONOCIMIENTOS       </article>
         
         </section>
+
+        <!--conocimientos iconos leng prog-->
+        <a name="icons-dev"></a>
+        <section class="dev-lg-title-icons-box">
+            <h2 class="dev-box-title">Mis conocimientos</h2>
+
+            <div class="dev-box-icons">
+                <div class="dev-icon-img">
+                    <i class="fab fa-html5 icon-size"></i>
+                    <h3 class="">HTML 5</h3>
+                </div>
+                <div class="dev-icon-img">
+                    <i class="fab fa-css3-alt icon-size"></i>
+                    <h3>CSS 3</h3>
+                </div>
+                <div class="dev-icon-img">
+                    <i class="fab fa-sass icon-size"></i>
+                    <h3>Sass</h3>
+                </div>
+                <div class="dev-icon-img">
+                    <i class="fab fa-js icon-size"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="dev-icon-img">
+                    CONOCIMIENTOS            <i class="fab fa-react icon-size"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="dev-icon-img">
+                    <i class="fab fa-git-alt icon-size"></i>
+                    <h3>GIT</h3>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!--proyecto -->
+        <!--contacto -->
+
+        <footer>
+            <nav class="footer-list-items-nav">
+                <ul class="footer-contact-items">
+                    <li class="font-hover foot-items-list"><a class="link-color" href="#hola">
+                        HOLA</a></li>
+                    <li class="font-hover foot-items-list"><a class="link-color" href="#icons-dev">
+                    CONOCIMIENTOS</a></li>
+                    <li class="font-hover foot-items-list">PROYECTOS</li>
+                    <li class="font-hover foot-items-list">CONTACTO</li>         
+                </ul>
+            </nav>
+            <div class="socialmedia-box-footer">
+                <div class="icon-sm-circle"><a class="footer-link" href="https://twitter.com/home" alt="twitter" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                <div class="icon-sm-circle"><a class="footer-link" href="https://github.com/Cabezadenispero" target="_blank"><i class="fab fa-github-alt"></i></a></div>
+                <div class="icon-sm-circle"><a class="footer-link" href="https://es.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+                <div class="icon-sm-circle"><a class="footer-link" href=""><i class="fas fa-envelope"></i></a></div>
+            </div>
+            <h4 class="made-with-wine">Hecho con <i class="fas fa-wine-glass-alt"></i> por Lola</h4>
+        </footer>
 
     </main>
 
