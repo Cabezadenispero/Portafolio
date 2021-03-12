@@ -1,0 +1,282 @@
+/* @media screen (max-width: 700px) {
+    header {
+        width: 150px;
+        height: 300px;
+        position: fixed;
+        display: flex;        
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 0px;
+        background-color: rgba(233, 223, 223, 0.1);
+    }
+    
+    .nav-responsive {
+        width: 10%;
+    }
+    
+    .nav-items-list{
+        width: 90px;
+        height: 300px;        
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 20px; 
+        margin-top: 20px;  
+        margin-left: 20px;     
+    }
+
+    .li-responsive{
+        padding: 8px;
+        margin: 3px;
+        font-size: 15px;
+        background-color: rgb(25, 87, 200);
+        color: white;
+    }
+    .link-none {
+        color: white;
+    }
+
+    .link-none:visited {color: white;  
+        text-decoration: none 
+    }
+    .link-none:hover {
+        color: rgb(224, 95, 36);
+        font-size: 20px;
+    }
+
+    .res-none {
+        display: none;
+    }
+
+    .{
+        padding: 8px;
+        margin: 3px;
+        font-size: 15px;
+        background-color: rgb(25, 87, 200);
+        color: white;     
+    }
+    
+
+    /* Hasta acá el header 
+    ------------------------------------
+    inicio del main 
+    
+    main {
+        width: ;  
+    }
+    
+    .presentation {
+        height: 540px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        
+    }
+    
+    .name-info  {
+        
+    }
+    
+    .presentation-saludo {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .presentation-name {
+        font-size: 40px;
+        color: darkcyan;
+        margin: 10px 0px 10px;
+    }
+    
+    .btn-loquehago {
+        width: 200px;
+        height: 50px;
+        background-color: blue;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        margin-top: 20px;
+    }
+    
+    .btn-loquehago:hover {
+        background-color: cadetblue;
+    }
+    
+    
+    .img-box-presentation {
+        
+    }
+    
+    .lola-img-presentation {
+        width: 80%;
+    }
+    */
+    /*CAJA DE ICONOS CONOCIMIENTO
+    
+    .dev-lg-title-icons-box {
+        width: 100%;
+        height: 600px;
+        padding: 100px 200px  0px;
+        background-color: rgb(226, 226, 226);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dev-box-title {
+        font-size: 30px;
+        font-weight: 900;
+        width: 100%;
+        text-align: center ;
+    }
+    
+    .dev-box-icons {
+        margin-top: 50px;
+        padding: 20px;
+        width: 400px;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .dev-icon-img {
+        height: 40%;
+        width: 30%;
+        border: 2px rgb(192, 192, 192) solid;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        margin-bottom: 3px;
+        font-size: 10px; 
+        padding: 5px; 
+        background-color: white;  
+    }
+    
+    .dev-icon-img:hover {
+        border: 2px brown solid;
+    }
+    
+    .icon-size {
+        font-size: 60px;
+        padding: 10px 0px 10px;
+    }
+    
+    .fa-html5 {
+        color:tomato;
+    }
+    
+    .fa-css3-alt {
+        color: rgb(17, 17, 98);
+    }
+    
+    .fa-sass {
+        color: pink;
+    }
+    
+    .fa-js {
+        color: yellow;
+    }
+    
+    .fa-react {
+        color: turquoise;
+    }
+    
+    .fa-git-alt {
+        color: tomato;
+    }
+    
+    
+    */
+    
+    
+    /* footer info 
+    
+    footer {
+        width: 100%;
+        height: 100px;
+        background-color: chocolate;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .footer-list-items-nav {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .footer-contact-items {
+        width: 30%;
+        font-size: 15px;
+        color: white;
+    }
+    .foot-items-list{
+        color: cornsilk;
+    }
+    .link-color {
+        color: white;
+        text-decoration-line: none ;
+    }
+    .link-color:hover {
+        color: violet;
+    }
+    
+    /* caja iconos social media*/ 
+    
+    .socialmedia-box-footer {    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    .icon-sm-circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color:chocolate;
+        margin: 20px 10px;
+    }
+    
+    .footer-link {
+        background-color: white;
+        color:chocolate;
+    
+    }
+    
+    .made-with-wine {
+        font-size: 20px;
+        color: rgb(218, 206, 206);
+        margin-top: 10px;
+    }
+    
+    .fa-wine-glass-alt {
+        color: rgb(255, 254, 254);
+    }
+    
+
+
+
+
+*/
+
+
+
+}
