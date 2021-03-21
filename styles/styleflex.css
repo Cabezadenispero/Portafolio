@@ -24,3 +24,29 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 400px) {
+    .f_center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .f_row {
+        display: flex;
+        align-items: center;
+    }
+    
+    .f_column {
+        display: flex;
+    }
+    
+    .f_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+
+
+}

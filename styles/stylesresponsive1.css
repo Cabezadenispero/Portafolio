@@ -1,282 +1,265 @@
-/* @media screen (max-width: 700px) {
-    header {
-        width: 150px;
-        height: 300px;
-        position: fixed;
-        display: flex;        
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-left: 0px;
-        background-color: rgba(233, 223, 223, 0.1);
-    }
-    
-    .nav-responsive {
-        width: 10%;
-    }
-    
-    .nav-items-list{
-        width: 90px;
-        height: 300px;        
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        font-size: 20px; 
-        margin-top: 20px;  
-        margin-left: 20px;     
-    }
 
-    .li-responsive{
-        padding: 8px;
-        margin: 3px;
-        font-size: 15px;
-        background-color: rgb(25, 87, 200);
-        color: white;
-    }
-    .link-none {
-        color: white;
-    }
+@media screen and (max-width: 400px) {
+    
+    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    .link-none:visited {color: white;  
-        text-decoration: none 
-    }
-    .link-none:hover {
-        color: rgb(224, 95, 36);
-        font-size: 20px;
-    }
+body {
+    width: 100vw;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .res-none {
-        display: none;
-    }
+/* Header a partir de acá */
 
-    .{
-        padding: 8px;
-        margin: 3px;
-        font-size: 15px;
-        background-color: rgb(25, 87, 200);
-        color: white;     
-    }
-    
+header {
+    display: none;
+}
 
-    /* Hasta acá el header 
-    ------------------------------------
-    inicio del main 
+
+/* Hasta acá header 
+------------------------------------
+inicio del main */
+
+
+main {
+    width: 100%;
+}
+
+.encabezado {    
+    width: 100%; 
+    height: 50rem; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.p_size-text {
+    width: 70%;
+    font-size: 1rem;
+}
+
+.encabezado_texto-caja {
+    width: 100%;
+    height:30rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.presentacion-saludo {
+    font-size: 1,5rem;
+    font-weight: bold;
+}
+
+.presentacion-name {
+    font-size: 4rem;
+    color: darkcyan;
+    margin: 10px 0px 10px;
+    text-align: center;
+}
+
+.btn_loquehago {
+    width: 60%;
+    height: 10%;
+    background-color: #343F56;
+    border-radius: 30px;
+    color:white;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.btn_loquehago:hover {
+    background-color: cadetblue;
+}
+
+.encabezado_imagen {
+    width: 100%;
+    height: 100%
+}
+
+.lola-img-presentation {
+    width: 80%;
+    height: 25rem;
+}
+
+/*CAJA DE ICONOS CONOCIMIENTO*/
+
+.section_conocimientos {
+    width: 100%;
+    height: 48rem;
+    padding-top: 20%;
+    background-color: #F8F5F1;
+}
+
+.titulo {
+    font-size: 1.6rem;
+    font-weight: 900;    
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.conoc_box_iconos {
+    margin-top: 2.5rem;    
+    width: 60%;
+    height: 50%;
+}
+
+.c_icon_box {
+    width: 45%;
+    height: 40%;    
+    margin-bottom: 5%;    
+    padding: 0.5rem;
+}
+
+.icon-size {
+    font-size: 3.5rem;
+    padding-top: 0.8rem;
+}
+
+.c_icon_text {
+    font-size: 0.8rem; 
+    margin-top: 1rem;
     
-    main {
-        width: ;  
-    }
-    
-    .presentation {
-        height: 540px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
-        
-    }
-    
-    .name-info  {
-        
-    }
-    
-    .presentation-saludo {
-        font-size: 25px;
-        font-weight: bold;
-    }
-    
-    .presentation-name {
-        font-size: 40px;
-        color: darkcyan;
-        margin: 10px 0px 10px;
-    }
-    
-    .btn-loquehago {
-        width: 200px;
-        height: 50px;
-        background-color: blue;
-        border-radius: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color:white;
-        margin-top: 20px;
-    }
-    
-    .btn-loquehago:hover {
-        background-color: cadetblue;
-    }
-    
-    
-    .img-box-presentation {
-        
-    }
-    
-    .lola-img-presentation {
-        width: 80%;
-    }
-    */
-    /*CAJA DE ICONOS CONOCIMIENTO
-    
-    .dev-lg-title-icons-box {
-        width: 100%;
-        height: 600px;
-        padding: 100px 200px  0px;
-        background-color: rgb(226, 226, 226);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .dev-box-title {
-        font-size: 30px;
-        font-weight: 900;
-        width: 100%;
-        text-align: center ;
-    }
-    
-    .dev-box-icons {
-        margin-top: 50px;
-        padding: 20px;
-        width: 400px;
-        height: 70%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .dev-icon-img {
-        height: 40%;
-        width: 30%;
-        border: 2px rgb(192, 192, 192) solid;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center ;
-        margin-bottom: 3px;
-        font-size: 10px; 
-        padding: 5px; 
-        background-color: white;  
-    }
-    
-    .dev-icon-img:hover {
-        border: 2px brown solid;
-    }
-    
-    .icon-size {
-        font-size: 60px;
-        padding: 10px 0px 10px;
-    }
-    
-    .fa-html5 {
-        color:tomato;
-    }
-    
-    .fa-css3-alt {
-        color: rgb(17, 17, 98);
-    }
-    
-    .fa-sass {
-        color: pink;
-    }
-    
-    .fa-js {
-        color: yellow;
-    }
-    
-    .fa-react {
-        color: turquoise;
-    }
-    
-    .fa-git-alt {
-        color: tomato;
-    }
-    
-    
-    */
-    
-    
-    /* footer info 
-    
-    footer {
-        width: 100%;
-        height: 100px;
-        background-color: chocolate;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 20px;
-    }
-    
-    .footer-list-items-nav {
-        width: 100%;
-        height: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    
-    .footer-contact-items {
-        width: 30%;
-        font-size: 15px;
-        color: white;
-    }
-    .foot-items-list{
-        color: cornsilk;
-    }
-    .link-color {
-        color: white;
-        text-decoration-line: none ;
-    }
-    .link-color:hover {
-        color: violet;
-    }
-    
-    /* caja iconos social media*/ 
-    
-    .socialmedia-box-footer {    
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        
-    }
-    
-    .icon-sm-circle {
-        width: 30px;
-        height: 30px;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        color:chocolate;
-        margin: 20px 10px;
-    }
-    
-    .footer-link {
-        background-color: white;
-        color:chocolate;
-    
-    }
-    
-    .made-with-wine {
-        font-size: 20px;
-        color: rgb(218, 206, 206);
-        margin-top: 10px;
-    }
-    
-    .fa-wine-glass-alt {
-        color: rgb(255, 254, 254);
-    }
-    
+}
+
+
+
+/* quote */
+
+.quote {
+    height:42rem;
+    width:100%;
+    padding: 8rem 2.5rem;
+}
+
+.fa-quote-right {
+    font-size: 8rem;
+    margin-bottom: 5%;
+}
+
+
+
+.quote_autor {
+    font-size: 2.4rem;
+    margin-top: 20%;
+}
+
+
+.proyectos {
+    width: 100%;
+    height: 90rem; 
+    padding:10% 0% 2%; 
+}
+
+.proyectos_img_container {
+    width: 100%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.proyectos_img_card {
+    height: 10rem;
+    width: 70%;
+    padding: 2% 2% 2%; 
+    margin: 0.6rem;   
+}
+
+.proyectos_img_card:hover {
+    border: 1px solid #7A306C;
+}
+
+.card_img {
+    height:70%;
+    width:100%
+}
+
+.img_size-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6%;
+}
 
 
 
 
-*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer info */
+
+footer {
+    width: 100%;
+    height: 16rem;
+    background-color: #E9896A;
+    padding-top: 1rem;
+}
+
+.footer_contact_list {
+    display: none;
+}
+
+/* caja iconos social media */
+
+
+.socialmedia_box_size {
+    
+    border-radius: 50px;
+    background-color: white;
+    color:#E9896A;
+    margin: 1rem 0.5rem;
+}
+
+.footer_link_color {
+    background-color: white;
+    color:#E9896A;
+
+}
+
+.made-with-wine {
+    font-size: 20px;
+    color: rgb(218, 206, 206);
+    margin-top: 1rem;
+}
+
+.fa-mug-hot {
+    color: rgb(255, 254, 254);
+}
 
 }

@@ -29,3 +29,12 @@
 .fa-git-alt {
     color: tomato;
 }
+
+@media screen and (max-width: 400px) {
+    .p_size-text { 
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+ }

@@ -17,9 +17,9 @@ body {
 header {
     width: 100%;
     height: 90px;
-    box-shadow: 0 5px 5px rgba(226, 220, 220, 0.75);
+    box-shadow: 0px 15px 28px -5px #4cc6db;
     position: fixed;
-    background-color: white;
+    background-color: #4cc6db;
 }
 
 nav {
@@ -41,6 +41,7 @@ nav {
     height: 40px;
     background-color: #343F56;
     border-radius: 30px;
+    border: grey 1px solid;
     color: white;
 }
 
@@ -83,8 +84,8 @@ main {
 
 .encabezado_texto-caja {
     width: 50%;
-    height: 100%;
-    margin-top: 30%;
+    height: 80%;
+    margin-top: 10%;
 }
 
 .presentacion-saludo {
@@ -108,7 +109,7 @@ main {
     margin-left: 2%;
 }
 
-.btn-loquehago:hover {
+.btn_loquehago:hover {
     background-color: cadetblue;
 }
 
@@ -117,7 +118,7 @@ main {
 }
 
 .lola-img-presentation {
-    width: 80%;
+    width: 100%;
 }
 
 /*CAJA DE ICONOS CONOCIMIENTO*/
@@ -129,7 +130,7 @@ main {
 }
 
 .titulo {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 900;
     width: 100%;
     text-align: center;
@@ -162,7 +163,7 @@ main {
 }
 
 .c_icon_box:hover {
-    border: 2px rgb(202, 176, 176) solid;
+    border: 2px #7A306C solid;
 }
 
 .icon-size {
@@ -222,7 +223,7 @@ main {
 }
 
 .proyectos_img_card:hover {
-    border: 1px solid #96f550;
+    border: 1px solid #7A306C;
 }
 
 .card_img {
@@ -235,26 +236,6 @@ main {
     font-weight: 400;
     margin-top: 6%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -284,9 +265,10 @@ footer {
 }
 
 .footer_contact_list {
-    width: 30%;
+    width: 40%;
     font-size: 15px;
     color: white;
+    justify-content:space-evenly;
 }
 
 .footer_item_color{
