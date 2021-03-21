@@ -1,0 +1,26 @@
+
+
+.f_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.f_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.f_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

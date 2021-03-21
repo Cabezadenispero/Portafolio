@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +9,7 @@
 body {
     width: 100vw;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header a partir de acá */
@@ -25,38 +27,32 @@ nav {
     height: 100%;   
 }
 
-ul {     
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;    
-}
 
-.nav-items-list{
+.nav_list_header{
     width: 45%;
     height: 100%;
     margin-left: 40%;
+    justify-content: space-evenly;
+    list-style: none; 
 }
 
-
-.btn-contact-nav {
+.nav_btn_contact {
     width: 150px;
     height: 40px;
-    background-color: blue;
+    background-color: #343F56;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
-.btn-contact-nav:hover {
-    background-color: cadetblue;
+.nav_btn_contact:hover {
+    background-color: #387C6D;
 }
 
+.font-hover {
+    list-style: none;
+}
 .font-hover:hover {
-    color: blueviolet
+    color: #343F56;
 }
 
 .link-none {
@@ -69,58 +65,44 @@ ul {
     color: rgb(85, 71, 99)
 }
 
-.noresp-none {
-    display: none;
-}
-/* Hasta acá el header 
+/* Hasta acá header 
 ------------------------------------
 inicio del main */
 
 main {
     width: 100%;
-    
-
 }
 
-.presentation {
-    height: 940px;
+.section_presentacion {
+    height: 840px;
     width: 100%;
-    padding: 10%;    
-    display: flex;
-    flex-direction: row;    
+    padding: 10%;       
     justify-content: space-around;
-    align-items: center;
-
 }
 
-/* info texto presentation */
 
-
-.name-info  {
+.presentacion_texto {
     width: 50%;
     height: 100%;
     margin-top: 30%;
 }
 
-.presentation-saludo {
+.presentacion-saludo {
     font-size: 25px;
     font-weight: bold;
 }
 
-.presentation-name {
+.presentacion-name {
     font-size: 60px;
     color: darkcyan;
     margin: 10px 0px 10px;
 }
 
-.btn-loquehago {
+.btn_loquehago {
     width: 200px;
     height: 50px;
-    background-color: blue;
+    background-color: #343F56;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color:white;
     margin-top: 80px;
 }
@@ -129,9 +111,8 @@ main {
     background-color: cadetblue;
 }
 
-
-.img-box-presentation {
-    width: 50%;
+.presentacion_imagen {
+    width: 60%;
 }
 
 .lola-img-presentation {
@@ -140,54 +121,58 @@ main {
 
 /*CAJA DE ICONOS CONOCIMIENTO*/
 
-.dev-lg-title-icons-box {
+.section_conocimientos {
     width: 100%;
-    height: 900px;
-    padding: 100px 200px  0px;
-    background-color: rgb(226, 226, 226);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 1000px;
+    background-color: #F8F5F1;
 }
 
-.dev-box-title {
+.titulo {
     font-size: 50px;
     font-weight: 900;
     width: 100%;
-    text-align: center ;
+    text-align: center;
+    margin-top: 10%;
+
 }
 
-.dev-box-icons {
-    margin-top: 50px;
-    padding: 20px;
-    width: 80%;
-    height: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.conoc_lorem {
+    font-size: 18px;
+    width: 45%;
+    margin-top: 40px;
+    text-align: center;
 }
 
-.dev-icon-img {
-    height: 40%;
+.conoc_box_iconos {
+    margin-top: 50px;    
+    width: 60%;
+    height: 50%;
+   
+}
+
+.c_icon_box {
+    height: 45%;
     width: 30%;
-    border: 2px rgb(192, 192, 192) solid;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-    margin-bottom: 20px;
-    font-size: 25px; 
+    border: 1px rgb(192, 192, 192) solid;
+    border-radius: 10px;
+    margin-bottom: 5%;    
     padding: 10px; 
     background-color: white;  
 }
 
-.dev-icon-img:hover {
-    border: 2px brown solid;
+.c_icon_box:hover {
+    border: 2px rgb(202, 176, 176) solid;
 }
 
 .icon-size {
-    font-size: 80px;
-    padding: 30px 0px 10px;
+    font-size: 90px;
+    padding-top: 30px;
+}
+
+.c_icon_text {
+    font-size: 22px; 
+    margin-top: 20px;
+    
 }
 
 .fa-html5 {
@@ -214,6 +199,64 @@ main {
     color: tomato;
 }
 
+/* quote */
+
+.quote {
+    height:800px;
+    width:100%;
+    padding: 130px 40px 140px;
+    background-color: #387C6D;
+    color: white;
+}
+
+.fa-quote-right {
+    font-size: 200px;
+}
+
+.quote_text { 
+    font-size: 20px;
+    width: 50%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.quote_autor {
+    font-size: 36px;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,28 +266,22 @@ main {
 footer {
     width: 100%;
     height: 350px;
-    background-color: chocolate;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    background-color: #E9896A;
     padding-top: 60px;
 }
 
-.footer-list-items-nav {
+.footer_nav {
     width: 100%;
     height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
-.footer-contact-items {
+.footer_contact_list {
     width: 30%;
     font-size: 15px;
     color: white;
 }
-.foot-items-list{
+
+.footer_item_color{
     color: cornsilk;
 }
 .link-color {
@@ -257,28 +294,19 @@ footer {
 
 /* caja iconos social media */
 
-.socialmedia-box-footer {    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
 
-.icon-sm-circle {
+.socialmedia_box_size {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
-    color:chocolate;
+    color:#E9896A;
     margin: 20px 10px;
 }
 
-.footer-link {
+.footer_link_color {
     background-color: white;
-    color:chocolate;
+    color:#E9896A;
 
 }
 
@@ -288,10 +316,6 @@ footer {
     margin-top: 50px;
 }
 
-.fa-wine-glass-alt {
+.fa-mug-hot {
     color: rgb(255, 254, 254);
-}
-
-.btn-no-responsive {
-    display: none;
 }
