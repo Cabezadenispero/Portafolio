@@ -73,7 +73,7 @@ main {
     width: 100%;
 }
 
-.section_presentacion {
+.encabezado {
     height: 840px;
     width: 100%;
     padding: 10%;       
@@ -81,7 +81,7 @@ main {
 }
 
 
-.presentacion_texto {
+.encabezado_texto-caja {
     width: 50%;
     height: 100%;
     margin-top: 30%;
@@ -99,19 +99,20 @@ main {
 }
 
 .btn_loquehago {
-    width: 200px;
-    height: 50px;
+    width: 40%;
+    height: 10%;
     background-color: #343F56;
     border-radius: 30px;
     color:white;
-    margin-top: 80px;
+    margin-top: 8%;
+    margin-left: 2%;
 }
 
 .btn-loquehago:hover {
     background-color: cadetblue;
 }
 
-.presentacion_imagen {
+.encabezado_imagen {
     width: 60%;
 }
 
@@ -132,7 +133,8 @@ main {
     font-weight: 900;
     width: 100%;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 
 }
 
@@ -147,7 +149,6 @@ main {
     margin-top: 50px;    
     width: 60%;
     height: 50%;
-   
 }
 
 .c_icon_box {
@@ -175,29 +176,7 @@ main {
     
 }
 
-.fa-html5 {
-    color:tomato;
-}
 
-.fa-css3-alt {
-    color: rgb(17, 17, 98);
-}
-
-.fa-sass {
-    color: pink;
-}
-
-.fa-js {
-    color: yellow;
-}
-
-.fa-react {
-    color: turquoise;
-}
-
-.fa-git-alt {
-    color: tomato;
-}
 
 /* quote */
 
@@ -211,14 +190,10 @@ main {
 
 .fa-quote-right {
     font-size: 200px;
+    margin-bottom: 5%;
 }
 
-.quote_text { 
-    font-size: 20px;
-    width: 50%;
-    margin-top: 10%;
-    text-align: center;
-}
+
 
 .quote_autor {
     font-size: 36px;
@@ -226,7 +201,40 @@ main {
 }
 
 
+.proyectos {
+    width: 100%;
+    height: 1300px; 
+    padding:5% 0% 2%; 
+}
 
+.proyectos_img_container {
+    width: 80%;
+    height: 70%;
+    margin-top: 3%;
+}
+
+.proyectos_img_card {
+    border-radius: 10px;
+    border: 1px solid rgb(224, 220, 220);
+    height: 30%;
+    width: 30%;
+    padding: 2% 2% 2%;    
+}
+
+.proyectos_img_card:hover {
+    border: 1px solid #96f550;
+}
+
+.card_img {
+    height:70%;
+    width:100%
+}
+
+.img_size-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6%;
+}
 
 
 
