@@ -14,16 +14,62 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Header a partir de acá */
+
+/* TIPOS -TITULOS - TEXT */
+
+.p_cont_text { 
+font: 0.5rem;
+width: 100%; 
+text-align: center;
+}
+
+.titulo {
+    font-size: 1.6rem;
+    font-weight: 900;    
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+/* FLEX */
+
+.f_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_row {
+    display: flex;
+    align-items: center;
+}
+
+.f_column {
+    display: flex;
+}
+
+.f_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.f_column_start {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+/* HEADER */
 
 header {
     display: none;
 }
 
 
-/* Hasta acá header 
-------------------------------------
-inicio del main */
+/* INICIO MAIN - PRESENTACION */
 
 
 main {
@@ -93,31 +139,22 @@ main {
 
 .section_conocimientos {
     width: 100%;
-    height: 48rem;
+    height: 50rem;
     padding-top: 20%;
     background-color: #F8F5F1;
 }
 
-.titulo {
-    font-size: 1.6rem;
-    font-weight: 900;    
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-
-.conoc_box_iconos {
+.iconos_container {
     margin-top: 2.5rem;    
-    width: 60%;
-    height: 50%;
+    width: 90%;
+    height: 60%;
 }
 
 .c_icon_box {
     width: 45%;
-    height: 40%;    
+    height: 35%;    
     margin-bottom: 5%;    
-    padding: 0.5rem;
+    padding: 1%;
 }
 
 .icon-size {
@@ -126,14 +163,13 @@ main {
 }
 
 .c_icon_text {
-    font-size: 0.8rem; 
+    font-size: 0.6rem; 
     margin-top: 1rem;
     
 }
 
 
-
-/* quote */
+/* QUOTE */
 
 .quote {
     height:42rem;
@@ -146,17 +182,14 @@ main {
     margin-bottom: 5%;
 }
 
-
-
 .quote_autor {
     font-size: 2.4rem;
     margin-top: 20%;
 }
 
-
 .proyectos {
     width: 100%;
-    height: 90rem; 
+    height: 105rem; 
     padding:10% 0% 2%; 
 }
 
@@ -165,13 +198,14 @@ main {
     margin-top: 6%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .proyectos_img_card {
     height: 10rem;
     width: 70%;
-    padding: 2% 2% 2%; 
-    margin: 0.6rem;   
+    padding: 5% 2% 5%; 
+    margin: 1.5rem;   
 }
 
 .proyectos_img_card:hover {
@@ -179,64 +213,129 @@ main {
 }
 
 .card_img {
-    height:70%;
+    height:80%;
     width:100%
 }
 
 .img_size-text {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-top: 6%;
 }
 
+/* CONTACTO - FORMULARIO */
 
 
+.section_contacto {
+    height:80rem;
+    width:100%;
+    background-color: #F7F7FB;
+}
 
+.contacto_box {
+    width: 100%;
+    height: 100%;
+    border: 0cm;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+}
 
+.contacto_form {
+    width: 100%;
+    height: 40rem;
+}
 
+.m_bottom {
+    margin-bottom: 1rem;
+}
 
+.p_iconos {
+    padding: 1rem 2rem;
+}
 
+.h3_form {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+    margin-top: 2em;
+}
 
+.contacto_iconos {
+    margin-top: 1rem;
+    width:20%;
+} 
 
+.i_contacto {
+    font-size: 1.6rem;
+    padding-top:1.5rem;
+    color: #7A306C;
+}
 
+.i-text {
+    padding-top:1.8rem;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 300;
+}
 
+.input_apellido-nombre {
+    width: 100%;
+    flex-direction: column;
+}
+.input_mitad {
+    width: 100%;
+}
 
+.form_line {
+    width: 100%;
+}
 
+.btn_enviar {
+    width:35%;
+    margin-top: 1rem;
+    border: transparent;
+}
 
+.btn_enviar:hover {
+    background-color: #123d34;
 
+}
 
+.input-heigt {
+    height: 2rem;
+    margin: 0.5rem 0rem;
+    
+}
 
+.input-style {
+    border-radius: 35px;
+    border-style: none;
+    background-color: rgb(250, 243, 243);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer info */
+/* FOOTER */
 
 footer {
     width: 100%;
     height: 16rem;
     background-color: #E9896A;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
-.footer_contact_list {
+
+/* CAJA ICONOS SOCIAL MEDIA */
+
+
+.p_size-text { 
+    width: 80%;
+    text-align: center;
+}
+
+.footer_nav {
     display: none;
-}
-
-/* caja iconos social media */
-
+} 
 
 .socialmedia_box_size {
     

@@ -1,0 +1,73 @@
+
+
+.font_hover {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.font_hover:hover {
+    color: white;
+    font-weight: 600;
+}
+
+.font_hover:visited {
+    color: black;
+    text-decoration: none 
+}
+
+.btn {
+    height: 2.5rem;
+    background-color: #6e8ccc;
+    border-radius: 30px;
+    color:white;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.p_size-text { 
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.p_cont_text { 
+    font: 0.5rem;
+    width: 80%; 
+    
+}
+
+
+/*colores se iconos de la sección conocimientos*/
+
+.fa-html5 {
+    color:tomato;
+}
+
+.fa-css3-alt {
+    color: rgb(17, 17, 98);
+}
+
+.fa-sass {
+    color: pink;
+}
+
+.fa-js {
+    color: yellow;
+}
+
+.fa-react {
+    color: turquoise;
+}
+
+.fa-git-alt {
+    color: tomato;
+}
+

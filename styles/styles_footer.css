@@ -1,0 +1,59 @@
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: #E9896A;
+    padding-top: 60px;
+}
+
+.footer_nav {
+    width: 100%;
+    height: 20%;
+}
+
+.footer_contact_list {
+    width: 40%;
+    font-size: 15px;
+    color: white;
+    justify-content:space-evenly;
+}
+
+.footer_item_color{
+    color: cornsilk;
+}
+
+.link-color {
+    color: white;
+    text-decoration-line: none ;
+}
+
+.link-color:hover {
+    color: violet;
+}
+
+/* caja iconos social media */
+
+
+.socialmedia_box_size {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color:#E9896A;
+    margin: 20px 10px;
+}
+
+.footer_link_color {
+    background-color: white;
+    color:#E9896A;
+}
+
+.made-with-wine {
+    font-size: 20px;
+    color: rgb(218, 206, 206);
+    margin-top: 50px;
+}
+
+.fa-mug-hot {
+    color: rgb(255, 254, 254);
+}

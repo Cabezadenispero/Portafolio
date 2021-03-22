@@ -1,0 +1,95 @@
+
+header {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    background-color:white;
+}
+
+nav {
+    width: 100%;
+    height: 100%;   
+}
+
+.nav_list_header{
+    width: 55%;
+    height: 100%;
+    margin-left: 40%;
+    justify-content: space-evenly;
+    list-style: none; 
+    font-weight: 400;
+    font-size: 20px;
+}
+.link_hola_shadow {
+    box-shadow: 0px 0px 25px 8px #45FEFF;
+    border-radius:30px;
+    border: 1px white solid;
+    background-color:white;
+    padding: 10px 15px;
+}
+.link_hola_shadow:hover {
+    color:#7A306C;
+}
+.nav_btn_contact {
+    width: 9.5rem;
+    height: 40px;
+    background-color: #8E8DBE;
+    border-radius: 30px;
+    color: white;
+}
+.nav_btn_contact:hover {
+    background-color: #63cfb8;
+    color: white ;
+}
+
+/* Hasta acá header 
+------------------------------------
+inicio del main */
+
+main {
+    width: 100%;
+}
+
+.encabezado {
+    height: 840px;
+    width: 100%;
+    padding: 10%;       
+    justify-content: space-around;
+}
+
+
+.encabezado_texto-caja {
+    width: 50%;
+    height: 80%;
+    margin-top: 10%;
+}
+
+.presentacion-saludo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.presentacion-name {
+    font-size: 60px;
+    color: darkcyan;
+    margin: 10px 0px 10px;
+}
+
+.btn_loquehago {
+    width: 40%;
+    margin-top: 8%;
+    margin-left: 2%;
+    
+}
+
+.btn_loquehago:hover {
+    background-color: cadetblue;
+}
+
+.encabezado_imagen {
+    width: 60%;
+}
+
+.lola-img-presentation {
+    width: 100%;
+}
