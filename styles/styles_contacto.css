@@ -1,0 +1,95 @@
+
+.section_contacto {
+    height:45rem;
+    width:100%;
+    background-color: #F7F7FB;
+}
+
+.contacto_box {
+    padding: 4rem 3rem;
+    border-radius: 20px;
+    border: 1px solid #63cfb8;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+.contacto_form {
+    width: 50%;
+    height: 100%;
+}
+
+.m_bottom {
+    margin-bottom: 3rem;
+}
+.p_iconos {
+    padding: 1rem 2rem;
+}
+
+.h3_form {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.contacto_iconos {
+    margin-top: 2rem;
+    width:20%;
+} 
+
+.i_contacto {
+    font-size: 1.2rem;
+    padding-top:1.5rem;
+}
+
+.i-text {
+    padding-top:1.5rem;
+    text-align: start;
+}
+
+
+.form_line {
+    width: 95%;
+}
+
+.input-style {
+    border-radius: 1rem;
+    border-style: none;
+    margin: 0.5rem;
+    background-color: rgb(245, 245, 245);
+}
+
+label {
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.input_apellido-nombre {
+    width: 100%;
+}
+
+.input_mitad {
+    width: 90%;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.input-heigt {
+    height: 2.5rem;
+    width: 100%;  
+}
+
+textarea {
+    width: 100%;
+}
+
+.btn_enviar {
+    width:35%;
+    margin-top: 1rem;
+    border: transparent;
+}
+
+.btn_enviar:hover {
+    background-color: #123d34;
+
+}
