@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_flex.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_fonts.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_nav-presentacion.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_conocimientos-quote.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_proyectos.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_contacto.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_footer.css">
-    <link rel="stylesheet" href="/home/cabezadenispero/Ada 2021/Portafolio/styles/styles_responsive.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles_flex.css">
+    <link rel="stylesheet" href="./styles/styles_fonts.css">
+    <link rel="stylesheet" href="./styles/styles_nav-presentacion.css">
+    <link rel="stylesheet" href="./styles/styles_conocimientos-quote.css">
+    <link rel="stylesheet" href="./styles/styles_proyectos.css">
+    <link rel="stylesheet" href="./styles/styles_contacto.css">
+    <link rel="stylesheet" href="./styles/styles_footer.css">
+    <link rel="stylesheet" href="./styles/styles_responsive.css">
     <script src="https://kit.fontawesome.com/4afec628c3.js" crossorigin="anonymous"></script>
     <title>María Dolores Garcia </title>
 </head>
@@ -45,9 +45,9 @@
                 <h3 class="presentacion-saludo">¡Hola! Soy</h3>
                 <h1 class="presentacion-name">Dolores Garcia</h1>
                 <p class="p_size-text">Bosquejo de developer, cats & crafty lover</p>
-                <div class="btn btn_loquehago f_center">
-                    <h4>LO QUE HAGO</h4>
-                </div>
+                <button class="btn btn_loquehago f_center">
+                    <p>LO QUE HAGO</p>
+                </button>
             </div>
             <div class="encabezado_imagen">
                 <img class="lola-img-presentation" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_nature_on_screen_xkli.svg" alt="presentacion">      
@@ -61,27 +61,27 @@
                     <div class="iconos_container f_wrap">
                         <div class="c_icon_box f_column">
                             <i class="fab fa-html5 icon-size"></i>
-                            <h3 class="icon_text">HTML 5</h3>
+                            <p class="icon_text">HTML 5</p>
                         </div>
                         <div class="c_icon_box f_column">
                             <i class="fab fa-css3-alt icon-size"></i>
-                            <h3 class="icon_text">CSS 3</h3>
+                            <p class="icon_text">CSS 3</p>
                         </div>
                         <div class="c_icon_box f_column">
                             <i class="fab fa-sass icon-size"></i>
-                            <h3 class="icon_text">Sass</h3>
+                            <p class="icon_text">Sass</p>
                         </div>
                         <div class="c_icon_box f_column">
                             <i class="fab fa-js icon-size"></i>
-                            <h3 class="icon_text">JavaScript</h3>
+                            <p class="icon_text">JavaScript</p>
                         </div>
                         <div class="c_icon_box f_column">
                             <i class="fab fa-react icon-size"></i>
-                            <h3 class="icon_text">React</h3>
+                            <p class="icon_text">React</p>
                         </div>
                         <div class="c_icon_box f_column">
                             <i class="fab fa-git-alt icon-size"></i>
-                            <h3 class="icon_text">GIT</h3>
+                            <p class="icon_text">GIT</p>
                         </div>
                     </div>
         </section>
@@ -89,7 +89,7 @@
         <section class="quote f_column">
             <i class="fas fa-quote-right"></i>
             <p class="p_size-text">“Be soft. Do not let the world make you hard. Do not let pain make you hate. Do not let the bitterness steal your sweetness. Take pride that even though the rest of the world may disagree, you still believe it to be a beautiful place”.</p>
-            <h3 class="quote_autor"> ― Kurt Vonnegut Jr.</h3>
+            <p class="quote_autor"> ― Kurt Vonnegut Jr.</p>
         </section>
         <!--proyecto -->
         <a name="proyectos"></a> 
@@ -99,75 +99,82 @@
                 <div class="proyectos_img_container f_wrap">
                     <div class="proyectos_img_card f_column">                    
                         <img class="card_img"  src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_static_assets_rpm6.svg" alt="Portafolio">
-                        <h4 class="img_size-text"><a class="link-none" href="#portafolio">Portafolio</a></h4>
+                        <p class="img_size-text"><a class="link-none" href="#portafolio">Portafolio</a></p>
                     </div>
                     <div class="proyectos_img_card f_column">
                         <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_nature_on_screen_xkli.svg" alt="Generador de memes">
-                        <h4 class="img_size-text">Generador de memes</h4>
+                        <p class="img_size-text">Generador de memes</p>
                     </div>
                     <div class="proyectos_img_card f_column">
                         <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_happy_announcement_ac67.svg" alt="match 3">
-                        <h4 class="img_size-text">Match 3</h4>
+                        <p class="img_size-text">Match 3</p>
                     </div>
                     <div class="proyectos_img_card f_column">
                         <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Messaging_fun_re_vic9.svg" alt="controlador de gastos">
-                        <h4 class="img_size-text">Controlador de gastos</h4>
+                        <p class="img_size-text">Controlador de gastos</p>
                     </div>
                     <div class="proyectos_img_card f_column">
                         <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Location_search_re_ttoj.svg" alt="Administrador de reuniones">
-                        <h4 class="img_size-text">Administrador de reuniones</h4>
+                        <p class="img_size-text">Administrador de reuniones</p>
                     </div>
                     <div class="proyectos_img_card f_column">
                         <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Landscape_mode_re_r964.svg" alt="todo app">
-                        <h4 class="img_size-text">Todo app</h4>
+                        <p class="img_size-text">Todo app</p>
                     </div>
                     <div class="proyectos_img_card f_column">
                         <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_subscribe_vspl.svg" alt="buscador de películas">
-                        <h4 class="img_size-text">Buscador de películas</h4>
+                        <p class="img_size-text">Buscador de películas</p>
                     </div>
                 </div>
         </section>
         <!--contacto -->
         <a name="contacto"></a> 
-        <section class="section_contacto f_center">
-            <div class="contacto_box f_row">
-                <div class="contacto_form f_column_start m_bottom">
+        <section class="section_contact f_center">
+            <div class="contact_box f_row f_center">
+
+                <div class="contact_form ">
                     <h3 class="h3_form">Contactame</h3>
                     <p class="p_cont_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                        <div class="f_row p_iconos">
-                            <div class="contacto_iconos f_column_start">
-                                <i class="fab fa-twitter i_contacto"></i>
-                                <i class="fab fa-github-alt i_contacto"></i>
-                                <i class="fab fa-linkedin-in i_contacto" ></i>
-                                <i class="fas fa-envelope i_contacto"></i>
-                            </div>
-                            <div class="contacto_iconos ">
-                                <h5 class="i-text">@cabezadenispero</h5>
-                                <h5 class="i-text">CabezaDeNispero</h5>
-                                <h5 class="i-text">AúnNoExistoEnLinkedin</h5>
-                                <h5 class="i-text">mdgarcia9779@gmail.com</h5>
+                        <div class="f_row">
+                            <div class="contact_iconos">
+                                <div>
+                                    <i class="fab fa-twitter i_contact"></i>
+                                    <a href="https://twitter.com/Cabezadenispero" class="i-text" target="_blank">@cabezadenispero</a>
+                                </div>
+                                <div>
+                                    <i class="fab fa-github-alt i_contact"></i>
+                                    <a href="https://github.com/Cabezadenispero" class="i-text" target="_blank">CabezaDeNispero</a>
+                                </div>
+                                <div>
+                                    <i class="fab fa-linkedin-in i_contact" ></i>
+                                    <a href="https://es.linkedin.com/" class="i-text" target="_blank">AúnNoExistoEnLinkedin</a>
+                                </div>
+                                <div>
+                                    <i class="fas fa-envelope i_contact"></i>
+                                    <a href="gmail.com" class="i-text" target="_blank">mdgarcia9779@gmail.com</a>
+                                </div>                                
                             </div>
                         </div>
                 </div>
-                <form class="contacto_form f_column_start" action="database.php" method="GET">
+                <form class="contact_form f_column_start" action="database.php" method="GET">
                     <h3 class="h3_form">Escribime</h3>
 
                     <div class="input_apellido-nombre f_row">
                         <div class="f_column_start ">
                                 <label for="name" >Nombre<sub>*</sub></label>
-                                <input class="input-style input_mitad" type="text" placeholder="       p.ej:Lola" size="30" maxlength="15">
+                                <input class="input-style input_mitad" id="name" type="text" placeholder="       p.ej:Lola" size="30" maxlength="15">
                         </div>
                         <div class="f_column_start ">
                                 <label for="surname">Apellido<sup>*</sup></label>
-                                <input class="input-style input_mitad" type="text" placeholder="       p.ej:García" size="30" maxlength="20">
+                                <input class="input-style input_mitad" id="surname" type="text" placeholder="       p.ej:García" size="30" maxlength="20">
                         </div>
                     </div>
 
                     <div class="form_line f_column_start ">
                             <label for="email">Email <sup>*</sup></label>
-                            <input class=" input-heigt input-style" type="email" name="email" id="email" placeholder="       p.ej.: lolagarcia@gmail.com">
+                            <input class="input-heigt input-style" id="email" type="email" name="email" id="email" placeholder="       p.ej.: lolagarcia@gmail.com">
                             <label for="msg">Mensaje <sup>*</sup></label>
-                            <textarea class="input-style"name="msg" id="msg" cols="30" rows="8" placeholder="    Escriba un mensaje aquí"></textarea>
+                            <textarea class="input-style" name="msg" id="msg" cols="30" rows="8" placeholder="    Escriba un mensaje aquí"></textarea>
                     </div>
 
                     <button class="btn font_hover btn_enviar" type="submit">Enviar</button>
@@ -212,12 +219,12 @@
                     </a>
                 </div>
                 <div class="socialmedia_box_size f_center">
-                    <a class="footer_link_color" href="">
+                    <a class="footer_link_color" href="gmail.com" target="_blank">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>
-            <h4 class="made-with-wine">Hecho con <i class="fas fa-mug-hot"></i> por Lola</h4>
+            <p class="made-with-wine">Hecho con <i class="fas fa-mug-hot"></i> por Lola</p>
         </footer>
     </main>
 </body>

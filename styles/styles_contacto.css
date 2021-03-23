@@ -1,52 +1,49 @@
 
-.section_contacto {
+.section_contact {
     height:45rem;
     width:100%;
     background-color: #F7F7FB;
 }
 
-.contacto_box {
-    padding: 4rem 3rem;
+.contact_box {
+    padding: 2rem 3rem;
     border-radius: 20px;
     border: 1px solid #63cfb8;
     width: 80%;
     margin-bottom: 3rem;
+    height: 42rem;
 }
 
-.contacto_form {
+.contact_form {
     width: 50%;
     height: 100%;
-}
-
-.m_bottom {
-    margin-bottom: 3rem;
-}
-.p_iconos {
-    padding: 1rem 2rem;
 }
 
 .h3_form {
     font-size: 3rem;
     font-weight: 900;
     width: 100%;
-    margin-bottom: 5%;
+    padding-bottom: 2rem;
 }
 
-.contacto_iconos {
+.contact_iconos {
     margin-top: 2rem;
-    width:20%;
+    width: 100%;
 } 
 
-.i_contacto {
-    font-size: 1.2rem;
-    padding-top:1.5rem;
+.i_contact {
+    padding-top: 1.5rem;
+    font-size: 1.6rem; 
+    color: #7870c2;
 }
 
 .i-text {
-    padding-top:1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
     text-align: start;
+    text-decoration: none;
+    color: black;    
 }
-
 
 .form_line {
     width: 95%;
@@ -81,6 +78,7 @@ label {
 
 textarea {
     width: 100%;
+    padding-top: 0.5rem;
 }
 
 .btn_enviar {
@@ -91,5 +89,6 @@ textarea {
 
 .btn_enviar:hover {
     background-color: #123d34;
+    cursor: pointer;
 
 }

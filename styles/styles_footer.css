@@ -43,6 +43,11 @@ footer {
     margin: 20px 10px;
 }
 
+
+.socialmedia_box_size:hover {
+    cursor: pointer;
+}
+
 .footer_link_color {
     background-color: white;
     color:#E9896A;
