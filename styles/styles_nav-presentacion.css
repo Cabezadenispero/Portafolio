@@ -20,16 +20,16 @@ nav {
     font-weight: 400;
     font-size: 20px;
 }
-.link_hola_shadow {
+
+.link_hola_shadow:hover {
+    color:#7A306C;
     box-shadow: 0px 0px 25px 8px #45FEFF;
     border-radius:30px;
     border: 1px white solid;
     background-color:white;
     padding: 10px 15px;
 }
-.link_hola_shadow:hover {
-    color:#7A306C;
-}
+
 .nav_btn_contact {
     width: 9.5rem;
     height: 40px;
@@ -37,6 +37,7 @@ nav {
     border-radius: 30px;
     color: white;
 }
+
 .nav_btn_contact:hover {
     background-color: #63cfb8;
     color: white ;

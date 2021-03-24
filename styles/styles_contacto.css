@@ -29,21 +29,34 @@
 .contact_iconos {
     margin-top: 2rem;
     width: 100%;
+    list-style: none;
 } 
 
 .i_contact {
-    padding-top: 1.5rem;
+    padding: 0.4rem;
     font-size: 1.6rem; 
     color: #7870c2;
 }
 
 .i-text {
-    padding-top: 1.5rem;
-    padding-left: 1rem;
-    text-align: start;
-    text-decoration: none;
-    color: black;    
+    font-size: 1rem;
+    padding-left: 0.8rem;
+    text-decoration: none; 
+    color: black; 
 }
+
+.line_style {
+    margin-top: 1rem;
+}
+
+.i_contact:hover  {
+    color: white;
+    border-radius: 55%;
+    padding: 0.8rem;
+    background-color: #7870c2;
+    cursor: pointer;
+}
+
 
 .form_line {
     width: 95%;
@@ -82,7 +95,7 @@ textarea {
 }
 
 .btn_enviar {
-    width:35%;
+    width:25%;
     margin-top: 1rem;
     border: transparent;
 }

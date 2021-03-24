@@ -28,35 +28,33 @@ footer {
 }
 
 .link-color:hover {
-    color: violet;
+    color: black;
+    font-size: 1rem;
 }
 
 /* caja iconos social media */
 
 
-.socialmedia_box_size {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    background-color: white;
-    color:#E9896A;
-    margin: 20px 10px;
-}
-
-
-.socialmedia_box_size:hover {
-    cursor: pointer;
-}
-
 .footer_link_color {
     background-color: white;
     color:#E9896A;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50px;
+    background-color: white;
+    color:#E9896A;
+    margin: 1.5rem 0.8rem;
+}
+
+.footer_link_color:hover {
+    background-color: #E9896A;
+    color: white;
 }
 
 .made-with-wine {
-    font-size: 20px;
+    font-size: 1rem;
     color: rgb(218, 206, 206);
-    margin-top: 50px;
+    margin-top: 3,125rem;
 }
 
 .fa-mug-hot {
