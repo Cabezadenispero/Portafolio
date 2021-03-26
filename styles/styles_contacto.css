@@ -38,7 +38,7 @@
     color: #7870c2;
 }
 
-.i-text {
+.i_text {
     font-size: 1rem;
     padding-left: 0.8rem;
     text-decoration: none; 
@@ -49,13 +49,18 @@
     margin-top: 1rem;
 }
 
-.i_contact:hover  {
+li:hover .i_contact{
     color: white;
     border-radius: 55%;
     padding: 0.8rem;
     background-color: #7870c2;
     cursor: pointer;
 }
+
+li:hover .i_text {
+    color: #0e8f73;
+}
+
 
 
 .form_line {
