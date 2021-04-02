@@ -6,34 +6,83 @@
     padding:5% 0% 2%; 
 }
 
-.proyectos_img_container {
+.proyectos_container {
     width: 80%;
     height: 50rem;
     margin-top: 3%;
 }
 
-.proyectos_img_card {
+.proyectos_card {
     border-radius: 10px;
     border: 1px solid rgb(224, 220, 220);
     height: 30%;
     width: 30%;
-    padding: 2% 2% 2%;    
+    padding: 2%;
+    transition: .5s;   
 }
 
-.proyectos_img_card:hover {
-    border: 1px solid #7A306C;
+.img_size {
+    width:70%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
-.card_img {
-    height:70%;
-    width:100%
+.img_background_portafolio {
+    background-image:url('../assets/images/undraw_nature_on_screen_xkli.svg');
 }
 
-.img_size-text {
+.img_background_memes {
+    background-image:url('../assets/images/undraw_static_assets_rpm6.svg');
+}
+
+.img_background_match {
+    background-image:url('../assets/images/undraw_subscribe_vspl.svg');
+}
+
+.img_background_gastos {
+    background-image:url('../assets/images/undraw_happy_announcement_ac67.svg');
+}
+
+.img_background_reuniones {
+    background-image:url('../assets/images/undraw_Group_chat_re_frmo.svg');
+}
+
+.img_background_app {
+    background-image:url('../assets/images/undraw_friends_r511.svg');
+}
+
+.img_background_peliculas {
+    background-image:url('../assets/images/undraw_Landscape_mode_re_r964.svg');
+}
+
+.img_text {
     font-size: 16px;
     font-weight: 400;
     margin-top: 6%;
+    transition: .5s;
 }
 
 
+.proyectos_card:hover {
+    border: 1px solid #7A306C;
+    transition:.5s;
+}
 
+.proyectos_card:hover .img_text {
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.wilde_quote {
+    animation-name: wilde;
+    animation-duration: 6s;
+    animation-direction: normal reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wilde {
+    0% { color: white; font-weight: 100}
+    100% { color: black; font-weight: 300; }
+  }

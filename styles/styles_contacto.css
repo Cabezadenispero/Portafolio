@@ -23,7 +23,7 @@
     font-size: 3rem;
     font-weight: 900;
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .contact_iconos {
@@ -40,7 +40,7 @@
 
 .i_text {
     font-size: 1rem;
-    padding-left: 0.8rem;
+    padding-left: 1rem;
     text-decoration: none; 
     color: black; 
 }
@@ -49,7 +49,7 @@
     margin-top: 1rem;
 }
 
-li:hover .i_contact{
+a:hover .i_contact{
     color: white;
     border-radius: 55%;
     padding: 0.8rem;
@@ -57,9 +57,11 @@ li:hover .i_contact{
     cursor: pointer;
 }
 
-li:hover .i_text {
+a:hover .i_text {
     color: #0e8f73;
 }
+
+/*Formulario*/
 
 
 .form_line {

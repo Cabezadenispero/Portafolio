@@ -18,7 +18,7 @@
 <body>
     <!---Bara de navegación estatica-->
     <header class="header-responsive">
-        <nav>
+        <nav class="nav_presentation">
             <ul class="nav_list_header f_row">
                 <li>
                     <a class="font_hover link_hola_shadow" href="#hola">HOLA</a>
@@ -95,35 +95,35 @@
         <a name="proyectos"></a> 
         <section class="proyectos f_column">
             <h2 class="titulo">Mis proyectos</h2>
-            <p class="p_size-text">"Be yourself; everyone else is already taken." Oscar Wilde</p>
-                <div class="proyectos_img_container f_wrap">
-                    <a href="#hola" class="link-none proyectos_img_card f_column">                     
-                        <img class="card_img"  src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_static_assets_rpm6.svg" alt="Portafolio">
-                        <p class="img_size-text">Portafolio</p>
+            <p class="p_size-text wilde_quote">"Be yourself; everyone else is already taken." Oscar Wilde</p>
+                <div class="proyectos_container f_wrap">
+                    <a href="#hola" class="proyectos_card link-none f_column">                     
+                        <div class="img_size img_background_portafolio"></div>
+                        <p class="img_text">Portafolio</p>
                     </a>
-                    <div class="proyectos_img_card f_column">
-                        <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_nature_on_screen_xkli.svg" alt="Generador de memes">
-                        <p class="img_size-text">Generador de memes</p>
+                    <div class="proyectos_card f_column">
+                        <div class="img_size img_background_memes"></div>
+                        <p class="img_text">Generador de memes</p>
                     </div>
-                    <div class="proyectos_img_card f_column">
-                        <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_happy_announcement_ac67.svg" alt="match 3">
-                        <p class="img_size-text">Match 3</p>
+                    <div class="proyectos_card f_column">
+                        <div class="img_size img_background_match"></div>
+                        <p class="img_text">Match 3</p>
                     </div>
-                    <div class="proyectos_img_card f_column">
-                        <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Messaging_fun_re_vic9.svg" alt="controlador de gastos">
-                        <p class="img_size-text">Controlador de gastos</p>
+                    <div class="proyectos_card f_column">
+                        <div class="img_size img_background_gastos"></div>
+                        <p class="img_text">Controlador de gastos </p>
                     </div>
-                    <div class="proyectos_img_card f_column">
-                        <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Location_search_re_ttoj.svg" alt="Administrador de reuniones">
-                        <p class="img_size-text">Administrador de reuniones</p>
+                    <div class="proyectos_card f_column">
+                        <div class="img_size img_background_reuniones"></div>
+                        <p class="img_text">Administrador de reuniones</p>
                     </div>
-                    <div class="proyectos_img_card f_column">
-                        <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_Landscape_mode_re_r964.svg" alt="todo app">
-                        <p class="img_size-text">Todo app</p>
+                    <div class="proyectos_card f_column">
+                        <div class="img_size img_background_app"></div>
+                        <p class="img_text">Top app</p>
                     </div>
-                    <div class="proyectos_img_card f_column">
-                        <img class="card_img" src="/home/cabezadenispero/Ada 2021/Portafolio/assets/images/undraw_subscribe_vspl.svg" alt="buscador de películas">
-                        <p class="img_size-text">Buscador de películas</p>
+                    <div class="proyectos_card f_column">
+                        <div class="img_size img_background_peliculas"></div>
+                        <p class="img_text">Buscador de películas</p>
                     </div>
                 </div>
         </section>
@@ -131,34 +131,30 @@
         <a name="contacto"></a> 
         <section class="section_contact f_center">
             <div class="contact_box f_row f_center">
-
                 <div class="contact_form ">
                     <h3 class="h3_form">Contactame</h3>
                     <p class="p_cont_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                        <div class="f_row">
-                            <ul class="contact_iconos f_column_start">
-                                <li class="line_style">
-                                    <i class="fab fa-twitter i_contact"></i>
-                                    <a href="https://twitter.com/Cabezadenispero" class="i_text" target="_blank">@cabezadenispero</a>
-                                </li>
-                                <li class="line_style">
-                                    <i class="fab fa-github-alt i_contact"></i>
-                                    <a href="https://github.com/Cabezadenispero" class="i_text" target="_blank">CabezaDeNispero</a>
-                                </li>
-                                <li class="line_style">
-                                    <i class="fab fa-linkedin-in i_contact" ></i>
-                                    <a href="https://es.linkedin.com/" class="i_text" target="_blank">AúnNoExistoEnLinkedin</a>
-                                </li>
-                                <li class="line_style">                          
-                                    <i class="fas fa-envelope i_contact"></i>
-                                    <a href="mailto:mdgarcia9779@gmail.com" class="i_text" target="_blank"><span class="none">mdgarcia9779@gmail.com</span></a>
-                                </li>
-                            </ul>
-                        </div>
+                        <nav class=" contact_iconos f_column_start">
+                                    <a href="https://twitter.com/Cabezadenispero" class="line_style i_text" target="_blank">
+                                        <i class="fab fa-twitter i_contact"></i>
+                                        <span class="i_text none">@cabezadenispero</span>
+                                    </a>
+                                    <a href="https://github.com/Cabezadenispero" class=" line_style i_text" target="_blank">
+                                        <i class="fab fa-github-alt i_contact"></i>
+                                        <span class="i_text none"> CabezaDeNispero</span>
+                                    </a>                                   
+                                    <a href="https://es.linkedin.com/" class="line_style i_text" target="_blank">
+                                        <i class="fab fa-linkedin-in i_contact" ></i>
+                                        <span class="i_text none">AúnNoExistoEnLinkedin</span>
+                                    </a>                   
+                                    <a href="mailto:mdgarcia9779@gmail.com" class="line_style i_text" target="_blank">
+                                        <i class="fas fa-envelope i_contact"></i>
+                                        <span class="i_text none">mdgarcia9779@gmail.com</span>
+                                    </a>
+                        </nav>
                 </div>
                 <form class="contact_form f_column_start" action="database.php" method="GET">
                     <h3 class="h3_form">Escribime</h3>
-
                     <div class="input_apellido-nombre f_row">
                         <div class="f_column_start ">
                                 <label for="name" >Nombre<sub>*</sub></label>
@@ -169,7 +165,6 @@
                                 <input class="input-style input_mitad" id="surname" type="text" placeholder="       p.ej:García" size="30" maxlength="20">
                         </div>
                     </div>
-
                     <div class="form_line f_column_start ">
                             <label for="email">Email <sup>*</sup></label>
                             <input class="input-heigt input-style" id="email" type="email" name="email" id="email" placeholder="       p.ej.: lolagarcia@gmail.com">
