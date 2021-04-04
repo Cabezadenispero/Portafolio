@@ -104,7 +104,8 @@ label {
 
 textarea {
     width: 100%;
-    padding-top: 0.5rem;
+    padding-top: 0.9rem;
+    
 }
 
 .btn_enviar {
@@ -119,5 +120,9 @@ textarea {
 }
 
 input:focus {
+    background: #74c3ff;
+}
+
+textarea:focus {
     background: #74c3ff;
 }
