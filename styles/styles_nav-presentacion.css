@@ -28,6 +28,7 @@ header {
     border: 1px white solid;
     background-color:white;
     padding: 10px 15px;
+    transition: .3s;
 }
 
 .nav_btn_contact {
@@ -36,11 +37,13 @@ header {
     background-color: #8E8DBE;
     border-radius: 30px;
     color: white;
+    transition: .3s;
 }
 
 .nav_btn_contact:hover {
     background-color: #63cfb8;
     color: white ;
+    transition: .3s;
 }
 
 /* Hasta acá header 
@@ -81,12 +84,13 @@ main {
     margin-top: 8%;
     margin-left: 2%;
     border: none;
-    
+    transition: .3s;    
 }
 
 .btn_loquehago:hover {
     background-color: cadetblue;
     cursor: pointer;
+    transition: .3s;
 }
 
 .encabezado_imagen {

@@ -187,13 +187,15 @@ main {
     margin-top: 20%;
 }
 
+/*proyectos*/
+
 .proyectos {
     width: 100%;
-    height: 105rem; 
+    height: 110rem; 
     padding:10% 0% 2%; 
 }
 
-.proyectos_img_container {
+.proyectos_container {
     width: 100%;
     margin-top: 6%;
     display: flex;
@@ -201,14 +203,14 @@ main {
     align-items: center;
 }
 
-.proyectos_img_card {
-    height: 10rem;
+.proyectos_card {
+    height: 25%;
     width: 70%;
     padding: 5% 2% 5%; 
     margin: 1.5rem;   
 }
 
-.proyectos_img_card:hover {
+.proyectos_card:hover {
     border: 1px solid #7A306C;
 }
 
