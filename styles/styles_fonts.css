@@ -53,8 +53,11 @@
 }
 /*colores se iconos de la sección conocimientos*/
 
+
+
+
 .fa-html5 {
-    color:tomato;
+    color: tomato;
 }
 
 .fa-css3-alt {
@@ -75,5 +78,6 @@
 
 .fa-git-alt {
     color: tomato;
+    
 }
 

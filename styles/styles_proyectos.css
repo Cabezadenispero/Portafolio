@@ -31,27 +31,27 @@
 }
 
 .img_background_portafolio {
-    background-image:url('../assets/images/undraw_nature_on_screen_xkli.svg');
+    background-image:url('../assets/images/friends.svg');
 }
 
 .img_background_memes {
-    background-image:url('../assets/images/undraw_static_assets_rpm6.svg');
-}
-
-.img_background_match {
-    background-image:url('../assets/images/undraw_subscribe_vspl.svg');
-}
-
-.img_background_gastos {
-    background-image:url('../assets/images/undraw_happy_announcement_ac67.svg');
-}
-
-.img_background_reuniones {
     background-image:url('../assets/images/undraw_Group_chat_re_frmo.svg');
 }
 
+.img_background_match {
+    background-image:url('../assets/images/undraw_best_place_r685.svg');
+}
+
+.img_background_gastos {
+    background-image:url('../assets/images/undraw_Messaging_fun_re_vic9.svg');
+}
+
+.img_background_reuniones {
+    background-image:url('../assets/images/undraw_Around_the_world_re_n353.svg');
+}
+
 .img_background_app {
-    background-image:url('../assets/images/undraw_friends_r511.svg');
+    background-image:url('../assets/images/undraw_flowers_vx06.svg');
 }
 
 .img_background_peliculas {
@@ -65,10 +65,10 @@
     transition: .5s;
 }
 
-
 .proyectos_card:hover {
-    border: 2px solid #7A306C;
+    border: 2px solid #077187;
     transition:.5s;
+    background-color: #f5f1ee;
 }
 
 .proyectos_card:hover .img_text {
@@ -78,7 +78,7 @@
 }
 
 .proyectos_card:hover .img_size {
-    filter: drop-shadow(10px 10px 10px rgb(255, 253, 107));
+    filter: drop-shadow(2px 5px 20px #00A7E1);
     width:80%;
     height:100%;
     background-repeat:no-repeat;
@@ -86,6 +86,7 @@
     background-position: center;
     transition: .5s;
 }
+
 .wilde_quote {
     animation-name: wilde;
     animation-duration: 6s;

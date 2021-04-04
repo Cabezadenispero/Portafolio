@@ -18,9 +18,9 @@ body {
 /* TIPOS -TITULOS - TEXT */
 
 .p_cont_text { 
-font: 0.5rem;
+font: 0.2rem;
 width: 100%; 
-text-align: center;
+white-space: pre-line;
 }
 
 .titulo {
@@ -41,7 +41,13 @@ text-align: center;
 
 .f_row {
     display: flex;
-    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.f_reverse {
+    display: flex;
+    flex-direction: column-reverse;
+
 }
 
 .f_column {
@@ -61,7 +67,6 @@ text-align: center;
     align-items: flex-start;
 }
 
-
 /* HEADER */
 
 header {
@@ -78,47 +83,44 @@ main {
 
 .encabezado {    
     width: 100%; 
-    height: 50rem; 
+    height: 40rem; 
     display: flex;
-    flex-direction:column;
-    justify-content: center;    
-    align-items: center;
+    position: relative;
 }
 
 .p_size-text {
     width: 70%;
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 
 .encabezado_texto-caja {
     width: 100%;
-    height:30rem;
+    height:15rem;
     display: flex;
-    flex-direction:column;
-    justify-content: center;    
-    align-items: center;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }
 
 .presentacion-saludo {
-    font-size: 1,5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .presentacion-name {
-    font-size: 4rem;
-    color: darkcyan;
-    margin: 10px 0px 10px;
+    font-size: 2.5rem;
+    margin: 0.5rem 0rem;
     text-align: center;
 }
 
 .btn_loquehago {
-    width: 60%;
-    height: 10%;
-    background-color: #343F56;
+    width: 45%;
+    height: 20%;
     border-radius: 30px;
     color:white;
-    margin-top: 8%;
+    margin-top: 1rem;
     margin-left: 2%;
+    box-shadow:none;
 }
 
 .btn_loquehago:hover {
@@ -126,21 +128,22 @@ main {
 }
 
 .encabezado_imagen {
-    width: 100%;
-    height: 100%
+    width: 80%;
+    height: 15rem;
 }
 
 .lola-img-presentation {
-    width: 80%;
-    height: 25rem;
+    width: 100%;
+    height: 100%;     
 }
+
 
 /*CAJA DE ICONOS CONOCIMIENTO*/
 
 .section_conocimientos {
     width: 100%;
-    height: 50rem;
-    padding-top: 20%;
+    height:50rem;
+    padding-top: 10%;
     background-color: #F8F5F1;
 }
 
@@ -154,7 +157,7 @@ main {
     width: 45%;
     height: 35%;    
     margin-bottom: 5%;    
-    padding: 1%;
+    padding: 2%;
 }
 
 .icon-size {
@@ -172,7 +175,7 @@ main {
 /* QUOTE */
 
 .quote {
-    height:42rem;
+    height:38rem;
     width:100%;
     padding: 8rem 2.5rem;
 }
@@ -183,15 +186,16 @@ main {
 }
 
 .quote_autor {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin-top: 20%;
+    text-align: right;
 }
 
 /*proyectos*/
 
 .proyectos {
     width: 100%;
-    height: 110rem; 
+    height: 120rem; 
     padding:10% 0% 2%; 
 }
 
@@ -229,44 +233,38 @@ main {
 
 
 .section_contact {
-    height:86rem;
+    height:100rem;
     width:100%;
-    background-color: #F7F7FB;
+    background-color: #5959ac;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .contact_box {
-    width: 100%;
-    height: 100%;
-    border: 0cm;
+    width: 90%;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items:flex-start;
     justify-content:flex-start;
 }
 
-.contact_form {
-    width: 100%;
-    height: 35rem;
-}
-
 .m_bottom {
-    margin-bottom: 1rem;
+    margin-bottom: .4rem;
 }
 
-.p_iconos {
-    padding: 1rem 2rem;
-}
 
 .h3_form {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     width: 100%;
-    margin-top: 2em;
+    margin-top: .2em;
 }
 
 .contact_iconos {
     margin-top: 2rem;
-    width:20%;
+    width:30%;
 } 
 
 .i_contact {
@@ -275,10 +273,13 @@ main {
 }
 
 .i-text {
-    padding-top:1.8rem;
-    text-align: start;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 300;
+}
+
+.contact_form {
+    width: 100%;
+    height: 88rem;
 }
 
 .input_apellido-nombre {
@@ -295,6 +296,7 @@ main {
 
 .btn_enviar {
     width:35%;
+    height: 10%;
     margin-top: 1rem;
     border: transparent;
 }
@@ -311,7 +313,7 @@ main {
 }
 
 .input-style {
-    border-radius: 35px;
+    border-radius: 15px;
     border-style: none;
     background-color: rgb(250, 243, 243);
 }
@@ -320,6 +322,7 @@ main {
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
     width:60%;
 }
 
@@ -330,12 +333,20 @@ footer {
     height: 16rem;
     background-color: #E9896A;
     padding-top: 3rem;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 
 
 /* CAJA ICONOS SOCIAL MEDIA */
 
-
+.f_socialmedia_responsive {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+}
 .p_size-text { 
     width: 80%;
     text-align: center;
