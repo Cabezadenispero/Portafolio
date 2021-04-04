@@ -117,6 +117,7 @@ textarea {
 .btn_enviar:hover {
     background-color: #123d34;
     cursor: pointer;
+    outline: none;
 }
 
 input:focus {
@@ -126,3 +127,4 @@ input:focus {
 textarea:focus {
     background: #74c3ff;
 }
+
