@@ -2,8 +2,9 @@
 header {
     width: 100%;
     height: 6rem;
-    position: fixed;
-    background-color:white;
+    background-color: #afeaf0 ;
+    box-shadow: -1px -1px 30px 3px #b1a9ad; 
+    position: fixed;    
     z-index: 6;
 }
 
@@ -39,7 +40,7 @@ header {
     border-radius: 30px;
     color: white;
     transition: .3s;
-    box-shadow: -1px -1px 30px 5px #413a3e;  
+    box-shadow: -1px -1px 30px 3px #b1a9ad;  
 }
 
 .nav_btn_contact:hover {

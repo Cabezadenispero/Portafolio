@@ -49,21 +49,14 @@
     color: black;
 }
 .link-none:active {
-    color
+    color: pink;
 }
+
 /*colores se iconos de la sección conocimientos*/
 
-
-
-
-.fa-html5 {
-    color: tomato;
-}
-
 .fa-css3-alt {
-    color: rgb(17, 17, 98);
+    color: blue;
 }
-
 .fa-sass {
     color: pink;
 }
@@ -80,4 +73,10 @@
     color: tomato;
     
 }
+
+.fa-html5 {
+    color: tomato;
+    
+}
+
 

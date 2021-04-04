@@ -18,8 +18,8 @@ body {
 /* TIPOS -TITULOS - TEXT */
 
 .p_cont_text { 
-font: 0.2rem;
-width: 100%; 
+font: .6rem;
+width: 80%; 
 white-space: pre-line;
 }
 
@@ -168,7 +168,6 @@ main {
 .c_icon_text {
     font-size: 0.6rem; 
     margin-top: 1rem;
-    
 }
 
 
@@ -233,43 +232,48 @@ main {
 
 
 .section_contact {
-    height:100rem;
+    height: 86rem;
     width:100%;
     background-color: #5959ac;
     display: flex;
     flex-direction: column;
-    
+    align-items:center;
+    justify-content: center;
 }
 
 .contact_box {
     width: 90%;
-    height: 30rem;
+    height: 80rem;
+    padding: 2.5rem 1rem 0rem;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content:flex-start;
 }
 
-.m_bottom {
-    margin-bottom: .4rem;
+.contact_form {
+    width: 100%;
+    height: 26rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
-
 
 .h3_form {
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 900;
     width: 100%;
-    margin-top: .2em;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.contact_iconos {
-    margin-top: 2rem;
-    width:30%;
-} 
 
 .i_contact {
     font-size: 1.6rem;
     color: #7A306C;
+    padding: .4rem;
 }
 
 .i-text {
@@ -277,27 +281,51 @@ main {
     font-weight: 300;
 }
 
-.contact_form {
+
+/*formulario*/
+
+.contact_form_responsive {
     width: 100%;
-    height: 88rem;
+    height: 45rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .input_apellido-nombre {
     width: 100%;
     flex-direction: column;
+
 }
+
 .input_mitad {
-    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    margin: 0rem;
+    background-color: #d2e7eb;
+    outline-style: none;
+    width: 20rem;
 }
 
-.form_line {
-    width: 100%;
+.input-style {
+    border-radius: 10px;
+    border-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: #d2e7eb;
+    outline-style: none;
+    width: 18rem;
 }
 
+#email {
+    height:2.5rem;
+}
 .btn_enviar {
-    width:35%;
-    height: 10%;
-    margin-top: 1rem;
+    width: 8rem;
+    height: 4rem;
+    margin-top: 3rem;
     border: transparent;
 }
 
