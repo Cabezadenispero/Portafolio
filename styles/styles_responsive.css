@@ -363,14 +363,14 @@ main {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .input_apellido-nombre {
-    width: 100%;
+    width: 20rem;
     flex-direction: column;
-    align-items:center;
+    align-items: flex-start;
 }
 
 .input-style {
@@ -384,6 +384,10 @@ main {
     height: 3rem;
 }
 
+.form_line {
+    flex-direction: column;
+    align-items: flex-start;
+}
 .textarea {
     border-radius: 10px;
     border-style: none;
