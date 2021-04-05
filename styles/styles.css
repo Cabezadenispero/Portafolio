@@ -16,7 +16,7 @@ body {
 }
 
 .inicio {
-    align-self: flex-start;
+    align-self: center;
     margin: 1rem; 
     border-radius: 10px;
     padding:0.5rem;
@@ -25,4 +25,5 @@ body {
 .link_none {
     text-decoration: none;
     color: rgb(80, 74, 74);
+    align-self: center;
 }
