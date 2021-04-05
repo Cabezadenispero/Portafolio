@@ -16,8 +16,14 @@ body {
 }
 
 .inicio {
-    background:transparent;
-    padding-left: 1rem;
-    width:2rem;
+    align-self: flex-start;
+    margin: 2rem; 
+    border-radius: 10px;
+    padding:0.5rem;
+}
 
+
+.link_none {
+    text-decoration: none;
+    color: black;
 }
