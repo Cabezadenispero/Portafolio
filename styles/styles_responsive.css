@@ -31,6 +31,28 @@ white-space: pre-line;
     margin-bottom: 5%;
 }
 
+.typing-demo {
+    width: 100%;
+    animation: typing 3s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+@keyframes typing {
+    from {
+width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+    border-color: transparent
+    }
+}
+
 /* FLEX */
 
 .f_center {
