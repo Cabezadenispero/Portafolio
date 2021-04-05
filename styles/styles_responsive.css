@@ -15,12 +15,9 @@ body {
 }
 
 
-/* TIPOS -TITULOS - TEXT */
-
-.p_cont_text { 
-font: .6rem;
-width: 80%; 
-white-space: pre-line;
+.p_size-text {
+    width: 70%;
+    font-size: 0.7rem;
 }
 
 .titulo {
@@ -31,27 +28,6 @@ white-space: pre-line;
     margin-bottom: 5%;
 }
 
-.typing-demo {
-    width: 100%;
-    animation: typing 3s steps(14), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 1.5rem;
-}
-
-@keyframes typing {
-    from {
-width: 0
-    }
-}
-
-@keyframes blink {
-    50% {
-    border-color: transparent
-    }
-}
 
 /* FLEX */
 
@@ -105,27 +81,41 @@ main {
 
 .encabezado {    
     width: 100%; 
-    height: 28rem; 
+    height: 35rem; 
     display: flex;
     flex-direction: column-reverse;
-    align-items:center;
+    align-items:flex-start;
     justify-content: center;
     position: relative;
 }
 
-.p_size-text {
-    width: 70%;
-    font-size: 0.7rem;
-}
-
 .encabezado_texto-caja {
     width: 100%;
-    height:10rem;
-    margin: 2.5rem 0.1rem 0.5rem;
+    height:15rem;
+    margin: 1rem 0.1rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: flex-start;
+}
+
+/* TIPOS -TITULOS - TEXT */
+
+.encabezado_imagen {
+    width: 100%;
+    height: 20rem;
+    padding-top: 0rem;
+}
+
+.lola-img-presentation {
+    width: 100%;
+    height: 100%;     
+}
+
+.p_cont_text { 
+    font: .6rem;
+    width: 80%; 
+    white-space: pre-line;
 }
 
 .presentacion-saludo {
@@ -139,13 +129,34 @@ main {
     margin: 0rem;
 }
 
+.typing-demo {
+    width: 100%;
+    animation: typing 3s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+@keyframes typing {
+    from {
+    width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+    border-color: transparent
+    }
+}
+
 .btn_loquehago {
     width: 10rem;
     height: 2rem;
     border-radius: 30px;
     color:white;
     margin-top: 3rem;
-    margin-left: 2%;
     box-shadow:none;
 }
 
@@ -153,26 +164,17 @@ main {
     background-color: cadetblue;
 }
 
-.encabezado_imagen {
-    width: 100%;
-    height: 14rem;
-    padding-top: 2rem;
-}
-
-.lola-img-presentation {
-    width: 100%;
-    height: 100%;     
-}
-
 /*section nav porque me parece que me hace talta*/
+
 .nav-responsive {
     width: 100%;
     height: 2rem;
     display: flex;
     align-items:center;
     justify-content:center;
-    margin-top: 0rem;
+    margin-top: .5rem;
 }
+
 .nav-responsive-ul {
     display: flex;
     align-items:center;
@@ -211,7 +213,7 @@ main {
 
 .section_conocimientos {
     width: 100%;
-    height:44rem;
+    height:50rem;
     padding-top: 10%;
     background-color: #F8F5F1;
 }
@@ -219,12 +221,12 @@ main {
 .iconos_container {
     margin-top: 2.5rem;    
     width: 90%;
-    height: 70%;
+    height: 34rem;
 }
 
 .c_icon_box {
     width: 45%;
-    height: 35%;    
+    height: 10rem;    
     margin-bottom: 5%;    
     padding: 2%;
 }
@@ -269,15 +271,16 @@ main {
 
 .proyectos_container {
     width: 100%;
+    height: 120rem;
     margin-top: 6%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .proyectos_card {
-    height: 25%;
     width: 90%;
+    height: 12rem;
     padding: 5% 2% 5%; 
     margin: 1.5rem;   
 }
@@ -301,19 +304,20 @@ main {
 
 
 .section_contact {
-    height: 86rem;
     width:100%;
+    height: 80rem;
     background-color: #5959ac;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    padding-top: 3rem;
 }
 
 .contact_box {
     width: 90%;
     height: 80rem;
-    padding: 2.5rem 1rem 0rem;
+    padding: 1.5rem 1rem 0rem;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -337,7 +341,6 @@ main {
     text-align: center;
     margin-bottom: 1rem;
 }
-
 
 .i_contact {
     font-size: 1.6rem;
@@ -366,15 +369,7 @@ main {
 .input_apellido-nombre {
     width: 100%;
     flex-direction: column;
-}
-
-.input_mitad {
-    border-radius: 10px;
-    border-style: none;
-    margin: 0rem;
-    background-color: #d2e7eb;
-    outline-style: none;
-    width: 20rem;
+    align-items:center;
 }
 
 .input-style {
@@ -384,12 +379,21 @@ main {
     padding: 0rem;
     background-color: #d2e7eb;
     outline-style: none;
-    width: 18rem;
+    width: 20rem;
+    height: 3rem;
 }
 
-#email {
-    height:2.5rem;
+.textarea {
+    border-radius: 10px;
+    border-style: none;
+    margin: 0rem;
+    padding: 5%;
+    background-color: #d2e7eb;
+    outline-style: none;
+    width: 20rem;
+    height: 10rem;
 }
+
 .btn_enviar {
     width: 8rem;
     height: 3rem;
@@ -399,19 +403,6 @@ main {
 
 .btn_enviar:hover {
     background-color: #123d34;
-}
-
-.input-heigt {
-    height: 2rem;
-    margin: 0.5rem 0rem;
-    
-}
-
-.input-style {
-    border-radius: 15px;
-    border-style: none;
-    background-color: rgb(250, 243, 243);
-    padding-top: 3%;
 }
 
 .line_style {
@@ -426,14 +417,13 @@ main {
 
 footer {
     width: 100%;
-    height: 16rem;
+    height: 20rem;
     background-color: #E9896A;
     padding-top: 3rem;
     flex-direction:column;
     align-items:center;
     justify-content:center;
 }
-
 
 /* CAJA ICONOS SOCIAL MEDIA */
 
@@ -453,7 +443,6 @@ footer {
 } 
 
 .socialmedia_box_size {
-    
     border-radius: 50px;
     background-color: white;
     color:#E9896A;
@@ -474,6 +463,20 @@ footer {
 
 .fa-mug-hot {
     color: rgb(255, 254, 254);
+}
+
+/*estilo del ancla para volver*/
+
+.inicio {
+    margin-top: 1rem; 
+    border-radius: 10px;
+    padding:0.5rem;
+    align-items: flex-end;
+}
+
+.link_none {
+    text-decoration: none;
+    color: rgb(80, 74, 74);
 }
 
 }

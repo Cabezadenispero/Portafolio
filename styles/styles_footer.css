@@ -1,7 +1,7 @@
 
 footer {
     width: 100%;
-    height: 12rem;
+    height: 16rem;
     background-color: #E9896A;
 }
 
@@ -35,6 +35,9 @@ footer {
 
 /* caja iconos social media */
 
+.footer-sm-box {
+    height:60%;
+}
 
 .footer_link_color {
     background-color: white;
@@ -55,10 +58,10 @@ footer {
     transition: .3s;
 }
 
-.made-with-wine {
+.made-with-coffee {
     font-size: 1rem;
     color: rgb(218, 206, 206);
-    margin-top: 3,125rem;
+    margin-bottom: 3rem;
 }
 
 .fa-mug-hot {
